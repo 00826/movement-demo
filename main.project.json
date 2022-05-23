@@ -1,0 +1,23 @@
+{
+	"name": "movement-demo",
+
+	"tree": {
+		"$className": "DataModel",
+
+		"HttpService": {
+			"$className": "HttpService",
+			"$properties": {
+				"HttpEnabled": true
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterCharacterScripts": {
+				"$className": "StarterCharacterScripts",
+				"Movement": {
+					"$path": "src/Movement"
+				}
+			}
+		}
+	}
+}
